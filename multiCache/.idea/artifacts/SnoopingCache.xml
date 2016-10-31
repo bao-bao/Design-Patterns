@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SnoopingCache">
+    <output-path>$PROJECT_DIR$/out/artifacts/SnoopingCache</output-path>
+    <root id="archive" name="SnoopingCache.jar">
+      <element id="module-output" name="multiCache" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
