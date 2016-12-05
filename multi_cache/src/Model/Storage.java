@@ -6,7 +6,7 @@ package Model;
 public class Storage {
     private int id;
 
-    public Storage(int id) {
+    Storage(int id) {
         this.id = id;
     }
 

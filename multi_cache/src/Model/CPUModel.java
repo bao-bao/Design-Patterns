@@ -9,7 +9,8 @@ public class CPUModel {
 
     public CPUModel(int id) {
         this.id = id;
-        for(int i = 0; i < 4; i++) {
+        caches = new Cache[4];
+        for (int i = 0; i < 4; i++) {
             caches[i] = new Cache(i);
         }
     }

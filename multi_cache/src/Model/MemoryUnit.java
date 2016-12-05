@@ -6,7 +6,7 @@ package Model;
 public class MemoryUnit extends Storage {
     private int mapValue;
 
-    public MemoryUnit(int id) {
+    MemoryUnit(int id) {
         super(id);
         this.mapValue = id % 4;
     }

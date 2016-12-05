@@ -26,7 +26,7 @@ public class Cache extends Storage {
         this.memoryId = memoryId;
     }
 
-    public Cache(int id) {
+    Cache(int id) {
         super(id);
         this.status = INVALID;
         this.memoryId = -1;

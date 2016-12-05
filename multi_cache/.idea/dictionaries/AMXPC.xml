@@ -3,6 +3,8 @@
     <words>
       <w>cacheid</w>
       <w>memoryid</w>
+      <w>rdmiss</w>
+      <w>wtmiss</w>
     </words>
   </dictionary>
 </component>
