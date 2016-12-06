@@ -4,6 +4,8 @@
       <w>cacheid</w>
       <w>memoryid</w>
       <w>rdmiss</w>
+      <w>readin</w>
+      <w>writeback</w>
       <w>wtmiss</w>
     </words>
   </dictionary>
