@@ -115,7 +115,7 @@ public class CPUController extends Observable implements Observer {
             }
         }
         if (movements.isEmpty() && invalidates.isEmpty()) {
-            movements.add(new Movement(0, 0, 0, 0));
+            movements.add(new Movement(0, 0, 0, Movement.NOMOVE));
         }
     }
 
@@ -205,6 +205,7 @@ public class CPUController extends Observable implements Observer {
                         if (cache.getStatus() == Cache.MODIFIED) {
                             cache.setStatus(Cache.INVALID);
                             movements.add(new Movement(cpuModelId, cache.getId(), cache.getMemoryId(), Movement.WRITEBACK));
+                            invalidates.add(new Pair<Integer, Integer>(cpuModelId, cache.getId()));
                         }
                         if (cache.getStatus() == Cache.SHARED) {
                             cache.setStatus(Cache.INVALID);
@@ -236,7 +237,6 @@ public class CPUController extends Observable implements Observer {
                 return Color.LIGHT_GRAY;
         }
     }
-
 
     public Vector<Movement> getMovements() {
         return movements;

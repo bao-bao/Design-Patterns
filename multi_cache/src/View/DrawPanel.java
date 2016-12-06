@@ -272,7 +272,7 @@ public class DrawPanel extends JPanel implements Runnable {
         if (moveVector.isEmpty() && invalidateVector.isEmpty()) {
             return;
         }
-        if (!moveVector.isEmpty() && moveVector.firstElement().Direction == 0) {
+        if (!moveVector.isEmpty() && moveVector.firstElement().Direction == Movement.NOMOVE) {
             this.repaint();
             return;
         }

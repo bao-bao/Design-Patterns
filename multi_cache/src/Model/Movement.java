@@ -6,6 +6,7 @@ package Model;
 public class Movement {
     public static final int WRITEBACK = 1;
     public static final int READIN = -1;
+    public static final int NOMOVE = 0;
     public int CPUModelId;
     public int CacheId;
     public int MemoryId;
