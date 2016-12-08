@@ -21,26 +21,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Cache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="method#Cache#0;class#Cache#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/DrawPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="278" column="26" lean-forward="true" selection-start-line="278" selection-start-column="26" selection-end-line="278" selection-end-column="26" />
+            <state relative-caret-position="3010">
+              <caret line="289" column="19" lean-forward="false" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#paintBackGround#0;class#DrawPanel#0" expanded="false" />
+                <element signature="method#Rect#0;class#Rect#0;class#DrawPanel#0" expanded="false" />
                 <element signature="method#paintComponent#0;class#DrawPanel#0" expanded="false" />
                 <element signature="method#moveRect#0;class#DrawPanel#0" expanded="false" />
                 <element signature="method#Invalidate#0;class#DrawPanel#0" expanded="false" />
@@ -49,8 +38,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Code.java">
+      <file leaf-file-name="CPUController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/CPUController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#CPUController#0" expanded="false" />
+                <element signature="method#CPUController#0;class#CPUController#0" expanded="false" />
+                <element signature="method#setCode#0;class#CPUController#0" expanded="false" />
+                <element signature="method#clearChanged#0;class#CPUController#0" expanded="false" />
+                <element signature="method#update#0;class#CPUController#0" expanded="false" />
+                <element signature="method#readInvalid#0;class#CPUController#0" expanded="false" />
+                <element signature="method#readShared#0;class#CPUController#0" expanded="false" />
+                <element signature="method#readModified#0;class#CPUController#0" expanded="false" />
+                <element signature="method#writeInvalid#0;class#CPUController#0" expanded="false" />
+                <element signature="method#writeShared#0;class#CPUController#0" expanded="false" />
+                <element signature="method#writeModified#0;class#CPUController#0" expanded="false" />
+                <element signature="method#otherCache#0;class#CPUController#0" expanded="false" />
+                <element signature="method#setCacheColor#0;class#CPUController#0" expanded="false" />
+                <element signature="method#clearMovementsAndInvalidates#0;class#CPUController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/UserPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2450">
+              <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/MainFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemoryUnit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/MemoryUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="docComment;class#MemoryUnit#0" expanded="false" />
+                <element signature="method#MemoryUnit#0;class#MemoryUnit#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CPUModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/CPUModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Movement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Storage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -64,84 +144,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CPUController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/CPUController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="134" column="30" lean-forward="true" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#CPUController#0" expanded="false" />
-                <element signature="method#CPUController#0;class#CPUController#0" expanded="false" />
-                <element signature="method#setCode#0;class#CPUController#0" expanded="false" />
-                <element signature="method#clearChanged#0;class#CPUController#0" expanded="false" />
-                <element signature="method#readModified#0;class#CPUController#0" expanded="false" />
-                <element signature="method#writeInvalid#0;class#CPUController#0" expanded="false" />
-                <element signature="method#writeShared#0;class#CPUController#0" expanded="false" />
-                <element signature="method#writeModified#0;class#CPUController#0" expanded="false" />
-                <element signature="method#otherCache#0;class#CPUController#0" expanded="false" />
-                <element signature="method#setCacheColor#0;class#CPUController#0" expanded="false" />
-                <element signature="method#clearMovementsAndInvalidates#0;class#CPUController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.8.0/src.zip!/java/util/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1009">
-              <caret line="154" column="27" lean-forward="true" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemoryUnit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/MemoryUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="docComment;class#MemoryUnit#0" expanded="false" />
-                <element signature="method#MemoryUnit#0;class#MemoryUnit#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CPUModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/CPUModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Movement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Movement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -184,12 +186,12 @@
         <option value="$PROJECT_DIR$/src/Model/Memory.java" />
         <option value="$PROJECT_DIR$/src/Model/CPUModel.java" />
         <option value="$PROJECT_DIR$/src/Model/Storage.java" />
-        <option value="$PROJECT_DIR$/src/Model/MemoryUnit.java" />
         <option value="$PROJECT_DIR$/src/Model/Cache.java" />
-        <option value="$PROJECT_DIR$/src/View/UserPanel.java" />
         <option value="$PROJECT_DIR$/src/Model/Movement.java" />
-        <option value="$PROJECT_DIR$/src/View/DrawPanel.java" />
         <option value="$PROJECT_DIR$/src/Controller/CPUController.java" />
+        <option value="$PROJECT_DIR$/src/Model/MemoryUnit.java" />
+        <option value="$PROJECT_DIR$/src/View/DrawPanel.java" />
+        <option value="$PROJECT_DIR$/src/View/UserPanel.java" />
       </list>
     </option>
   </component>
@@ -220,9 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,6 +306,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -685,11 +687,19 @@
       <workItem from="1480940747460" duration="1131000" />
       <workItem from="1480946423020" duration="1437000" />
       <workItem from="1481016704462" duration="3922000" />
+      <workItem from="1481021495073" duration="617000" />
+      <workItem from="1481078586023" duration="1628000" />
+      <workItem from="1481084627262" duration="3572000" />
+      <workItem from="1481093731374" duration="174000" />
+      <workItem from="1481093928797" duration="1383000" />
+      <workItem from="1481106157913" duration="1391000" />
+      <workItem from="1481173982381" duration="2000" />
+      <workItem from="1481176808613" duration="99000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36194000" />
+    <option name="totallyTimeSpent" value="45060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,24 +720,24 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16967268" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15497495" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17465998" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24048096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24048096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16967268" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -760,9 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="64" column="69" lean-forward="false" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="method#Cache#0;class#Cache#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,6 +806,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#paintBackGround#0;class#DrawPanel#0" expanded="false" />
+            <element signature="method#Rect#0;class#Rect#0;class#DrawPanel#0" expanded="false" />
             <element signature="method#paintComponent#0;class#DrawPanel#0" expanded="false" />
             <element signature="method#moveRect#0;class#DrawPanel#0" expanded="false" />
             <element signature="method#Invalidate#0;class#DrawPanel#0" expanded="false" />
@@ -843,6 +848,9 @@
             <element signature="method#CPUController#0;class#CPUController#0" expanded="false" />
             <element signature="method#setCode#0;class#CPUController#0" expanded="false" />
             <element signature="method#clearChanged#0;class#CPUController#0" expanded="false" />
+            <element signature="method#update#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readInvalid#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readShared#0;class#CPUController#0" expanded="false" />
             <element signature="method#readModified#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeInvalid#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeShared#0;class#CPUController#0" expanded="false" />
@@ -866,9 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
           <caret line="64" column="69" lean-forward="false" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="method#Cache#0;class#Cache#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,6 +955,9 @@
             <element signature="method#CPUController#0;class#CPUController#0" expanded="false" />
             <element signature="method#setCode#0;class#CPUController#0" expanded="false" />
             <element signature="method#clearChanged#0;class#CPUController#0" expanded="false" />
+            <element signature="method#update#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readInvalid#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readShared#0;class#CPUController#0" expanded="false" />
             <element signature="method#readModified#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeInvalid#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeShared#0;class#CPUController#0" expanded="false" />
@@ -982,6 +987,9 @@
             <element signature="method#CPUController#0;class#CPUController#0" expanded="false" />
             <element signature="method#setCode#0;class#CPUController#0" expanded="false" />
             <element signature="method#clearChanged#0;class#CPUController#0" expanded="false" />
+            <element signature="method#update#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readInvalid#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readShared#0;class#CPUController#0" expanded="false" />
             <element signature="method#readModified#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeInvalid#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeShared#0;class#CPUController#0" expanded="false" />
@@ -1021,9 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="method#Cache#0;class#Cache#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,6 +1069,9 @@
             <element signature="method#CPUController#0;class#CPUController#0" expanded="false" />
             <element signature="method#setCode#0;class#CPUController#0" expanded="false" />
             <element signature="method#clearChanged#0;class#CPUController#0" expanded="false" />
+            <element signature="method#update#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readInvalid#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readShared#0;class#CPUController#0" expanded="false" />
             <element signature="method#readModified#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeInvalid#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeShared#0;class#CPUController#0" expanded="false" />
@@ -1084,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="743" column="0" lean-forward="false" selection-start-line="743" selection-start-column="0" selection-end-line="743" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,47 +1102,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/UserPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.8.0/src.zip!/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1009">
-          <caret line="154" column="27" lean-forward="true" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="4375">
+          <caret line="154" column="27" lean-forward="false" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1147,13 +1124,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Cache.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/CPUModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="method#Cache#0;class#Cache#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,18 +1140,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/CPUModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/MemoryUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
           <folding>
             <element signature="docComment;class#MemoryUnit#0" expanded="false" />
             <element signature="method#MemoryUnit#0;class#MemoryUnit#0" expanded="false" />
@@ -1187,21 +1154,73 @@
     <entry file="file://$PROJECT_DIR$/src/Model/Movement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/UserPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/DrawPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3010">
+          <caret line="289" column="19" lean-forward="false" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#paintBackGround#0;class#DrawPanel#0" expanded="false" />
+            <element signature="method#Rect#0;class#Rect#0;class#DrawPanel#0" expanded="false" />
+            <element signature="method#paintComponent#0;class#DrawPanel#0" expanded="false" />
+            <element signature="method#moveRect#0;class#DrawPanel#0" expanded="false" />
+            <element signature="method#Invalidate#0;class#DrawPanel#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/CPUController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="134" column="30" lean-forward="true" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+        <state relative-caret-position="805">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#CPUController#0" expanded="false" />
             <element signature="method#CPUController#0;class#CPUController#0" expanded="false" />
             <element signature="method#setCode#0;class#CPUController#0" expanded="false" />
             <element signature="method#clearChanged#0;class#CPUController#0" expanded="false" />
+            <element signature="method#update#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readInvalid#0;class#CPUController#0" expanded="false" />
+            <element signature="method#readShared#0;class#CPUController#0" expanded="false" />
             <element signature="method#readModified#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeInvalid#0;class#CPUController#0" expanded="false" />
             <element signature="method#writeShared#0;class#CPUController#0" expanded="false" />
@@ -1209,20 +1228,6 @@
             <element signature="method#otherCache#0;class#CPUController#0" expanded="false" />
             <element signature="method#setCacheColor#0;class#CPUController#0" expanded="false" />
             <element signature="method#clearMovementsAndInvalidates#0;class#CPUController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/DrawPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="278" column="26" lean-forward="true" selection-start-line="278" selection-start-column="26" selection-end-line="278" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#paintBackGround#0;class#DrawPanel#0" expanded="false" />
-            <element signature="method#paintComponent#0;class#DrawPanel#0" expanded="false" />
-            <element signature="method#moveRect#0;class#DrawPanel#0" expanded="false" />
-            <element signature="method#Invalidate#0;class#DrawPanel#0" expanded="false" />
           </folding>
         </state>
       </provider>

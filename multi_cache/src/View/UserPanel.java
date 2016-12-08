@@ -76,4 +76,3 @@ class UserPanel extends JPanel {
         }
     }
 }
-
